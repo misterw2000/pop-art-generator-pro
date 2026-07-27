@@ -1,6 +1,6 @@
 <p align="center">
   <img src="screenshots/screenshot_1.png" width="800" alt="POP ART GENERATOR PRO Preview">
-  <img src="screenshots/screenshot_.png" width="800" alt="POP ART GENERATOR PRO Preview">
+  <img src="screenshots/screenshot_2.png" width="800" alt="POP ART GENERATOR PRO Preview">
 </p>
 
 <h1 align="center">🎨 POP ART GENERATOR PRO</h1>
