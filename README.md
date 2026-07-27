@@ -177,28 +177,6 @@ No installation required.
 
 ---
 
-# 📸 Screenshots
-
-## Main Interface
-
-<p align="center">
-<img src="screenshots/screenshot_1.png" width="900">
-</p>
-
-## Deluxe Filters
-
-<p align="center">
-<img src="screenshots/filters.png" width="900">
-</p>
-
-## Artist Templates
-
-<p align="center">
-<img src="screenshots/templates.png" width="900">
-</p>
-
----
-
 # 📄 License
 
 This project is licensed under the **MIT License**.
