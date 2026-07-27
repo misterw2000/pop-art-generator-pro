@@ -189,6 +189,6 @@ See the **LICENSE** file for more information.
 
 **Copyright © 2026 MisterwAI**
 
-Made with ❤️ using Python
+Built with ❤️ using Python, OpenCV, CustomTkinter & ModernGL
 
 </p>
