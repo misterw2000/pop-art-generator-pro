@@ -1,112 +1,216 @@
 <p align="center">
-<img src="screenshots/screenshot_1.png" width="800" alt="POP ART GENERATOR PRO Preview">
+  <img src="screenshots/screenshot_1.png" width="800" alt="POP ART GENERATOR PRO Preview">
+  <img src="screenshots/screenshot_.png" width="800" alt="POP ART GENERATOR PRO Preview">
 </p>
 
 <h1 align="center">🎨 POP ART GENERATOR PRO</h1>
 
 <p align="center">
-<b>Transforming reality into vibrant art.</b><br>
-Commercial-grade desktop software for generating Pop Art, Silkscreen, Multi Exposure, and Transparent Layer artwork. Built with Python, OpenCV, and CustomTkinter.
+  <b>Transforming reality into vibrant art.</b><br>
+  Commercial-grade desktop software for generating Pop Art, Silkscreen, Multi Exposure, and Transparent Layer artwork.<br>
+  Built with <b>Python</b>, <b>OpenCV</b>, and <b>CustomTkinter</b>.
 </p>
 
-📖 Table of Contents
-Overview
-Key Features
-Artist Templates
-Deluxe Filters
-Tech Stack
-Installation & Running
-Screenshots
-License
-📌 Overview
-POP ART GENERATOR PRO is a professional, non-destructive photo editing application designed specifically for creating contemporary gallery art. It automatically generates multiple translucent colored layers from any portrait, preserving facial details while producing rich overlapping colors. Every feature is editable in real-time, mimicking the workflow of industry-standard software like Adobe Photoshop but specialized in Pop Art generation.
+---
 
-✨ Key Features
-🖌️ Layer System & Compositing
-Unlimited Layers: Create, duplicate, merge, and delete layers seamlessly.
-Non-Destructive Adjustment Layers: Apply filters that affect underlying layers without altering the original image data.
-Advanced Blend Modes: Screen, Multiply, Overlay, and more for authentic ink overlapping effects.
-Layer Opacity Control: Real-time slider for precise transparency adjustments.
-Color Picker: Double-click any layer to change its base color instantly.
-Drag & Drop: Import images directly into the canvas from your file explorer.
-🎯 AI & Automation
-AI Subject Detection: Automatic background removal and subject masking using MediaPipe.
-Dynamic Offset Spread: Control the misregistration effect (silkscreen) with precision percentages (10% to 100%).
-Auto Contrast & Grayscale Optimization: Enhances image details before color separation.
-📂 Export & Project Management
-Custom .popart Format: Save your entire project (layers, masks, effects) to a single file.
-High-Quality Export: PNG (with optional transparent background) and JPG.
-ZIP Export: Export all layers individually into a compressed ZIP file.
-Resolution Scaling: Export at 25%, 50%, 75%, or 100% larger scales.
-🎨 Artist Templates
-One-click styles emulating the greatest Pop Art and contemporary artists:
+# 📖 Table of Contents
 
-Default: Vibrant 7-color separation.
-Warhol: Neon silkscreen with screen ink texture.
-Lichtenstein: Comic book style with Benday dots.
-Banksy: Stencil street art with spray paint and drips.
-Basquiat: Neo-expressionism with graffiti scribbles and paper grain.
-Picasso: Cubist facets with a distinct blue period palette.
-Murakami, Haring, Hokusai, Koons: Various curated palettes and textures.
-🌌 Deluxe Filters
-A collection of unique, real-time filters:
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Artist Templates](#-artist-templates)
+- [Deluxe Filters](#-deluxe-filters)
+- [Tech Stack](#-tech-stack)
+- [Installation & Running](#-installation--running)
+- [Screenshots](#-screenshots)
+- [License](#-license)
 
-Glitch Error: Digital corruption and RGB splitting.
-80s Tech Wave: Synthwave neon grid with magenta and cyan mapping.
-Halftone Print: Classic newspaper dot matrix.
-CMYK Dots: 4-color printing process simulation.
-Risograph: 2-color ink offset with grain.
-Emoji Pop: Image reconstruction using a palette of emojis.
-Terminal (Matrix): Green phosphor dot matrix display.
-...and many more (Fat Pixel, 16-bit, Punk Collage, Bootleg Pixel).
-🛠 Tech Stack
-Category
-Technology
-Language	Python 3.11+
-GUI Framework	CustomTkinter, Tkinter, TkinterDnD2
-Image Processing	OpenCV, NumPy, Pillow (PIL), scikit-image
-AI / Vision	MediaPipe
-GPU Rendering	ModernGL, PyOpenGL
+---
 
-🚀 Installation & Running
-Option 1: From Source (Developers)
+# 📌 Overview
+
+**POP ART GENERATOR PRO** is a professional, non-destructive photo editing application designed specifically for creating contemporary gallery artwork.
+
+It automatically generates multiple translucent colored layers from any portrait while preserving facial details, producing rich overlapping colors inspired by traditional silkscreen printing.
+
+Every feature is editable in real time, providing a workflow similar to professional software like **Adobe Photoshop**, but specialized for Pop Art creation.
+
+---
+
+# ✨ Key Features
+
+## 🖌️ Layer System & Compositing
+
+- ✅ Unlimited Layers
+- ✅ Duplicate, Merge & Delete Layers
+- ✅ Non-Destructive Adjustment Layers
+- ✅ Advanced Blend Modes (Multiply, Screen, Overlay...)
+- ✅ Layer Opacity Control
+- ✅ Real-Time Color Picker
+- ✅ Drag & Drop Image Import
+
+---
+
+## 🎯 AI & Automation
+
+- 🤖 AI Subject Detection (MediaPipe)
+- 🎭 Automatic Background Removal
+- 🎨 Dynamic Offset Spread (Silkscreen Misregistration)
+- ⚡ Auto Contrast Enhancement
+- ⚫ Intelligent Grayscale Optimization
+
+---
+
+## 📂 Export & Project Management
+
+- 💾 Native **.popart** project format
+- 🖼 PNG Export (with optional transparency)
+- 📸 JPG Export
+- 📦 ZIP Export (all layers individually)
+- 📐 Resolution Scaling (25%, 50%, 75%, 100%)
+
+---
+
+# 🎨 Artist Templates
+
+Generate artwork inspired by legendary artists with one click.
+
+| Template | Description |
+|----------|-------------|
+| 🎨 Default | Vibrant 7-color separation |
+| 🌈 Warhol | Neon silkscreen with ink texture |
+| 💥 Lichtenstein | Comic style with Benday dots |
+| 🏴 Banksy | Street stencil with spray paint |
+| ✏️ Basquiat | Neo-expressionism with graffiti |
+| 🧩 Picasso | Cubist facets & Blue Period palette |
+| 🌸 Murakami | Japanese Superflat colors |
+| ❤️ Keith Haring | Bold lines & vivid colors |
+| 🌊 Hokusai | Traditional Japanese tones |
+| 🎈 Jeff Koons | Bright glossy contemporary palette |
+
+---
+
+# 🌌 Deluxe Filters
+
+A collection of real-time creative effects.
+
+- ⚡ Glitch Error
+- 🌆 80s Tech Wave
+- 📰 Halftone Print
+- 🎯 CMYK Dots
+- 🎨 Risograph
+- 😀 Emoji Pop
+- 💻 Terminal (Matrix)
+- 🟩 Fat Pixel
+- 🎮 16-bit Retro
+- 🤘 Punk Collage
+- 👾 Bootleg Pixel
+
+...and many more.
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technology |
+|-----------|------------|
+| Language | Python 3.11+ |
+| GUI | CustomTkinter, Tkinter, TkinterDnD2 |
+| Image Processing | OpenCV, NumPy, Pillow, scikit-image |
+| AI / Computer Vision | MediaPipe |
+| GPU Rendering | ModernGL, PyOpenGL |
+
+---
+
+# 🚀 Installation & Running
+
+## Option 1 — From Source
+
 Clone the repository:
-bash
 
+```bash
 git clone https://github.com/misterw2000/pop-art-generator-pro.git
-Navigate to the project folder:
-bash
+```
 
+Enter the project folder:
+
+```bash
 cd pop-art-generator-pro
-Create and activate a virtual environment:
-bash
+```
 
+Create a virtual environment:
+
+```bash
 python -m venv venv
-# Windows
+```
+
+### Windows
+
+```bash
 venv\Scripts\activate
-# macOS/Linux
+```
+
+### macOS / Linux
+
+```bash
 source venv/bin/activate
+```
+
 Install dependencies:
-bash
 
+```bash
 pip install customtkinter opencv-python numpy Pillow scikit-image moderngl PyOpenGL mediapipe onnxruntime tkinterdnd2
+```
+
 Run the application:
-bash
 
+```bash
 python main.py
-Option 2: Pre-compiled Executable
-Download the latest PopArtGeneratorPro.exe from the Releases page and double-click to run. No installation required.
+```
 
-📸 Screenshots
-Deluxe Filters in Action
-Deluxe Filters
+---
 
-Artist Templates
-Templates
+## Option 2 — Precompiled Executable
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Download the latest **PopArtGeneratorPro.exe** from the **Releases** page.
 
-<br>
+No installation required.
 
-Copyright (c) 2026 MisterwAI
+---
+
+# 📸 Screenshots
+
+## Main Interface
+
+<p align="center">
+<img src="screenshots/screenshot_1.png" width="900">
+</p>
+
+## Deluxe Filters
+
+<p align="center">
+<img src="screenshots/filters.png" width="900">
+</p>
+
+## Artist Templates
+
+<p align="center">
+<img src="screenshots/templates.png" width="900">
+</p>
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+See the **LICENSE** file for more information.
+
+---
+
+<p align="center">
+
+**Copyright © 2026 MisterwAI**
+
+Made with ❤️ using Python
+
+</p>
